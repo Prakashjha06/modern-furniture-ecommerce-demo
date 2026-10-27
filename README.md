@@ -1,91 +1,324 @@
-# Vihara Living — Zero-Cost Furniture Storefront & Mini-Admin Demo
+# 🛋️ Vihara Living — Modern Furniture E-commerce Demo
 
-A zero-cost, 100% static furniture e-commerce showcase built with React, Vite, TypeScript, and Tailwind CSS. Designed specifically to demonstrate modern digital commerce to prospective furniture shop owners with **₹0 hosting, ₹0 database, and ₹0 payment gateway setup costs**.
+### A Modern, Responsive Furniture Shopping Experience
+
+Vihara Living is a modern furniture e-commerce storefront demonstration built using **React, TypeScript, Vite, and Tailwind CSS**.
+
+The project showcases an interactive online furniture shopping experience with product browsing, category filtering, product customization, wishlist management, shopping cart functionality, and a mini-admin dashboard.
+
+Designed as a frontend demonstration, Vihara Living illustrates how furniture businesses can establish a modern digital storefront without requiring a complex backend infrastructure.
+
+### 🌐 Live Demo
+
+**[🚀 Explore the Live Website](https://regal-baklava-8413e4.netlify.app)**
+
+**[💻 View Source Code](https://github.com/Prakashjha06/modern-furniture-ecommerce-demo)**
 
 ---
 
-## 1. Folder Structure
+## 🛠️ Tech Stack
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+
+**Core Technologies**
+
+- **React:** Component-based user interface.
+- **TypeScript:** Type-safe application development.
+- **Vite:** Fast development server and optimized production builds.
+- **Tailwind CSS:** Responsive styling and modern UI design.
+- **Local Storage:** Browser-based persistence for demo functionality.
+- **Netlify:** Static website deployment and hosting.
+
+---
+
+## ✨ Key Features
+
+### 🏠 Modern Storefront
+
+- Responsive homepage with furniture collections.
+- Modern navigation and promotional sections.
+- Featured products and category highlights.
+- Clean, mobile-friendly interface.
+
+### 🛍️ Product Catalog
+
+- Furniture products organized into categories.
+- Product filtering and sorting.
+- Product information and pricing.
+- Detailed product views.
+- Multiple product images and furniture specifications.
+
+### 🛒 Shopping Cart
+
+- Add and remove products.
+- Update item quantities.
+- View cart totals.
+- Apply demonstration discount codes.
+- Interactive cart drawer.
+
+### ❤️ Wishlist
+
+- Save favorite furniture products.
+- View shortlisted items.
+- Manage wishlist selections.
+- Browser-based wishlist persistence.
+
+### 💳 Demo Checkout
+
+- Interactive checkout experience.
+- Order summary and price calculations.
+- WhatsApp-based order inquiry workflow.
+- Demonstration checkout without a live payment gateway.
+
+### 🎨 Furniture Customization
+
+- Furniture customization options.
+- Custom furniture quotation requests.
+- Customer requirement collection.
+- WhatsApp and email inquiry workflows.
+
+### 🛠️ Mini-Admin Dashboard
+
+- Demonstration admin interface.
+- Product catalog management.
+- Product information updates.
+- Demo order viewing.
+- Browser-based data management.
+
+**Note:** The mini-admin dashboard is intended for demonstration purposes and does not provide production-grade authentication or a centralized database.
+
+---
+
+## 📸 Project Screenshots
+
+### Homepage
+
+<img width="1917" height="1076" alt="image" src="https://github.com/user-attachments/assets/6e4a0a56-d904-46a6-bd41-e480250d2446" />
+
+
+### Product Catalog
+
+<img width="1917" height="1076" alt="image" src="https://github.com/user-attachments/assets/6d7c596e-14d5-4be0-bb77-974917a42a34" />
+
+
+### Shopping Cart
+
+<img width="1917" height="1077" alt="image" src="https://github.com/user-attachments/assets/f072c6d0-4f4f-4ba3-8d90-f6989da7e067" />
+
+
+### Admin Dashboard
+
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/e7177519-5d70-423f-8220-76513be42119" />
+
+
+---
+
+## 🚀 Getting Started
+
+Follow these instructions to run the project locally.
+
+### Prerequisites
+
+Ensure you have installed:
+
+- Node.js
+- npm
+- Git
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Prakashjha06/modern-furniture-ecommerce-demo.git
+```
+
+### 2. Navigate to the Project Directory
+
+```bash
+cd modern-furniture-ecommerce-demo
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+### 5. Build for Production
+
+```bash
+npm run build
+```
+
+The production-ready files will be generated in the `dist` directory.
+
+---
+
+## 📁 Project Structure
 
 ```text
-/
-├── index.html                    # Customer storefront entry point
-├── admin.html                    # Standalone Mini-Admin Demo entry (/admin.html)
+modern-furniture-ecommerce-demo/
+│
 ├── public/
-│   └── products.json             # 12 sample furniture items (static JSON copy)
+│   └── products.json
+│
 ├── src/
-│   ├── main.tsx                  # Customer app mount
-│   ├── adminMain.tsx             # Admin app mount
-│   ├── App.tsx                   # Storefront state & route controller
-│   ├── index.css                 # Brand CSS variables, typography & reduced motion
+│   ├── assets/
+│   │   └── images/
+│   │
+│   ├── components/
+│   │   ├── AdminApp.tsx
+│   │   ├── CartDrawer.tsx
+│   │   ├── CatalogView.tsx
+│   │   ├── CheckoutView.tsx
+│   │   ├── ContactView.tsx
+│   │   ├── CustomQuoteView.tsx
+│   │   ├── Footer.tsx
+│   │   ├── HomeView.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── ProductCard.tsx
+│   │   ├── ProductDetailView.tsx
+│   │   └── WishlistView.tsx
+│   │
 │   ├── config/
-│   │   └── shopConfig.ts         # 10-MINUTE REBRANDING CONFIG (name, colors, INR, WhatsApp)
+│   │   └── shopConfig.ts
+│   │
 │   ├── data/
-│   │   └── products.json         # 12 furniture items across 6 categories
+│   │   └── products.json
+│   │
 │   ├── types/
-│   │   └── furniture.ts          # TypeScript interfaces
+│   │   └── furniture.ts
+│   │
 │   ├── utils/
-│   │   ├── assetMap.ts           # Studio image asset resolver
-│   │   ├── storage.ts            # Browser localStorage persistence layer
-│   │   ├── storeLogic.ts         # Pure filter, sort, cart, DEMO10 & WhatsApp builders
-│   │   └── storeLogic.test.ts    # Unit test suite (node:test)
-│   └── components/
-│       ├── Navbar.tsx            # 3-zone top bar + dismissible offer strip
-│       ├── HomeView.tsx          # Hero banner, 6 category tiles, featured grid, testimonials
-│       ├── CatalogView.tsx       # Live search, category/price/finish filters, sorting
-│       ├── ProductCard.tsx       # Uniform 4:3 product card + wishlist toggle
-│       ├── ProductDetailView.tsx # 3-view gallery (photo, SVG blueprint, finish) + related items
-│       ├── ProductMedia.tsx      # Resilient media + scaled architectural dimension SVG
-│       ├── CartDrawer.tsx        # Slide-over cart, DEMO10 coupon (10% off), WhatsApp order
-│       ├── CheckoutView.tsx      # Delivery form + "Demo Order Placed" receipt screen
-│       ├── WishlistView.tsx      # Saved shortlist grid
-│       ├── CustomQuoteView.tsx   # Bespoke furniture quote builder (WhatsApp / mailto)
-│       ├── ContactView.tsx       # Free Google Maps iframe, store hours, WhatsApp chat
-│       ├── Footer.tsx            # Store links & Admin Demo shortcut
-│       └── AdminApp.tsx          # Mini-Admin (demo / demo123) CRUD + Demo Orders viewer
+│   │
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+│
+├── admin.html
+├── index.html
 ├── package.json
-└── vite.config.ts                # Multi-page static build (index.html + admin.html)
+├── package-lock.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
 ```
 
 ---
 
-## 2. Rebrand for Any Client in 10 Minutes
+## ⚙️ Configuration
 
-1. Open `src/config/shopConfig.ts`.
-2. Edit `shopName`, `whatsappNumber`, `displayPhone`, `email`, and `showroom` address/hours.
-3. Adjust hex codes inside `SHOP_CONFIG.theme` (`bg`, `surface`, `accent`) — CSS variables update the entire UI automatically.
-4. Edit `src/data/products.json` (or add/edit products live inside `/admin.html`).
+The storefront can be customized through:
 
----
+```text
+src/config/shopConfig.ts
+```
 
-## 3. Free Deployment Guide (₹0/month)
+This configuration supports changes to storefront branding and business information.
 
-### Option A: Deploy Free on Netlify (Recommended — 2 Minutes)
-1. Run `npm install && npm run build` locally — this generates a static `dist/` folder containing both `index.html` and `admin.html`.
-2. Go to [app.netlify.com/drop](https://app.netlify.com/drop) (free account, no credit card).
-3. Drag and drop the `dist/` folder directly onto the browser window — your live HTTPS demo URL is ready in 15 seconds.
-   *(Or connect your GitHub repo with Build Command: `npm run build` and Publish Directory: `dist`).*
+Furniture product information can be updated through:
 
-### Option B: Deploy Free on GitHub Pages
-1. Push this folder to a free GitHub repository.
-2. In `vite.config.ts`, set `base: './'` if hosting under `https://<username>.github.io/<repo-name>/`.
-3. Run `npm run build` and push the `dist/` folder to the `gh-pages` branch (`npx gh-pages -d dist`), or enable **Settings → Pages → GitHub Actions (Static HTML / Vite)**.
+```text
+src/data/products.json
+```
+
+The project is structured to make adapting the demonstration for different furniture businesses easier.
 
 ---
 
-## 4. 5-Line Demo Script for Shop Owners
+## 🌍 Deployment
 
-1. *"Here is how your showroom looks online on any phone—customers can browse all 6 categories, filter by INR budget, and inspect exact centimeter dimensions."*
-2. *"Watch what happens when a buyer picks a finish, adds a sofa to their cart, and applies your festive code `DEMO10`—it calculates the 10% discount instantly."*
-3. *"They don't even need a paid payment gateway to start: one tap on 'Order on WhatsApp' sends their full itemized cart and total straight to your store WhatsApp."*
-4. *"For made-to-measure wardrobes or custom dining sizes, this 'Request a Quote' form sends you structured dimensions and budget inquiries ready to price."*
-5. *"And in `/admin.html` (login `demo` / `demo123`), you can add new designs, update prices, and track customer orders—when you're ready to launch, we upgrade this to your permanent cloud database and UPI checkout."*
+The project is deployed using **Netlify**.
+
+### Live Website
+
+**https://regal-baklava-8413e4.netlify.app**
+
+### Build Configuration
+
+| Setting | Value |
+|---|---|
+| Framework | Vite |
+| Build Command | `npm run build` |
+| Publish Directory | `dist` |
+| Hosting | Netlify |
 
 ---
 
-## 5. What the Full Paid Version Adds
+## 🎯 Project Purpose
 
-- **Cloud Database & Multi-Device Sync** (PostgreSQL / Firestore so catalog edits & orders sync across all customer phones, not just one browser's `localStorage`).
-- **Instant Online Payments** (Razorpay / Cashfree / Stripe integration for UPI, Credit/Debit Cards, NetBanking, and No-Cost EMI).
-- **Secure Role-Based Admin Authentication** (Real encrypted staff logins, audit logs, and image file uploads to cloud CDN storage).
-- **Live Inventory & Variant Stock Control** (Automatic stock deduction, low-stock alerts, pincode delivery serviceability & shipping rate calculation).
-- **Automated GST Invoicing & WhatsApp Business API** (PDF GST tax receipts, automated order confirmation & dispatch tracking messages, and custom `.in` / `.com` domain SEO setup).
+The primary objective of Vihara Living is to demonstrate a modern furniture e-commerce experience.
+
+The project focuses on:
+
+- Building reusable React components.
+- Developing responsive web interfaces.
+- Implementing interactive shopping functionality.
+- Managing frontend application state.
+- Organizing TypeScript projects.
+- Demonstrating an e-commerce workflow.
+- Deploying frontend applications.
+
+It also serves as a customizable storefront concept for furniture businesses exploring digital commerce.
+
+---
+
+## ⚠️ Demo Limitations
+
+This project is a **frontend demonstration**, not a production-ready e-commerce platform.
+
+The current demonstration does not include:
+
+- A centralized production database.
+- Real payment gateway integration.
+- Production-grade admin authentication.
+- Server-side order processing.
+- Real-time inventory synchronization.
+- Secure customer account management.
+
+Some functionality relies on browser local storage.
+
+A production implementation would require appropriate backend services, secure authentication, persistent storage, and payment processing.
+
+---
+
+## 🔮 Future Enhancements
+
+Potential improvements include:
+
+- Backend API integration.
+- PostgreSQL or Firebase database.
+- Secure user authentication.
+- Razorpay or Stripe payment integration.
+- Real-time inventory management.
+- Customer accounts and order history.
+- Advanced product search.
+- Cloud-based admin dashboard.
+- Automated order notifications.
+
+---
+
+## 👨‍💻 Developer
+
+**Prakash Jha**
+
+GitHub: [@Prakashjha06](https://github.com/Prakashjha06)
+
+---
+
+## ⭐ Support
+
+If you find this project interesting, consider giving the repository a star!
+
+**Built with React, TypeScript, Vite, and Tailwind CSS.**
