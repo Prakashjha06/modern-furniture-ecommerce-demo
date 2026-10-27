@@ -1,0 +1,6 @@
+{
+  "name": "Vihara Living — Furniture Storefront Demo",
+  "description": "Zero-cost, rebrandable modern furniture shop demo with INR pricing, WhatsApp checkout, custom quote builder, wishlist, and localStorage mini-admin panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

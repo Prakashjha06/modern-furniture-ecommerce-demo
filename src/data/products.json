@@ -1,0 +1,292 @@
+[
+  {
+    "id": "prod-sofa-01",
+    "sku": "VH-SF-101",
+    "name": "Nilambur Teak 3-Seater Sofa",
+    "category": "Sofas",
+    "price": 68500,
+    "material": "Kiln-Dried Nilambur Teak & Belgian Oatmeal Linen",
+    "dimensions": {
+      "widthCm": 218,
+      "depthCm": 88,
+      "heightCm": 79,
+      "label": "218 × 88 × 79 cm"
+    },
+    "colors": [
+      { "name": "Oatmeal Linen", "hex": "#DDD6C7" },
+      { "name": "Forest Moss", "hex": "#3B4D43" },
+      { "name": "Warm Terracotta", "hex": "#A85D44" }
+    ],
+    "image": "/src/assets/images/product_sofa_teak_1792829925977.jpg",
+    "cropStyle": "default",
+    "featured": true,
+    "inStock": true,
+    "leadTime": "Ships in 7–10 days",
+    "description": "Crafted from sustainably harvested Nilambur teak with exposed mortise-and-tenon joinery. High-resilience multi-density foam cushions wrapped in breathable stain-guarded linen offer structured all-day lounging."
+  },
+  {
+    "id": "prod-bed-01",
+    "sku": "VH-BD-201",
+    "name": "Malabar Woven Linen King Bed",
+    "category": "Beds",
+    "price": 62000,
+    "material": "Solid Honey Teak & Handloomed Cotton-Linen Headboard",
+    "dimensions": {
+      "widthCm": 192,
+      "depthCm": 212,
+      "heightCm": 106,
+      "label": "192 × 212 × 106 cm (King)"
+    },
+    "colors": [
+      { "name": "Sandstone Weave", "hex": "#D8CFC0" },
+      { "name": "Charcoal Slate", "hex": "#4A4B4D" }
+    ],
+    "image": "/src/assets/images/product_bed_oak_1792829927202.jpg",
+    "cropStyle": "default",
+    "featured": true,
+    "inStock": true,
+    "leadTime": "Ships in 10–14 days",
+    "description": "Designed for serene architectural bedrooms, featuring a gently angled upholstered headboard for effortless evening reading and heavy-duty hardwood slats engineered for zero creak."
+  },
+  {
+    "id": "prod-dining-01",
+    "sku": "VH-DN-301",
+    "name": "Sahyadri 6-Seater Dining Table Set",
+    "category": "Dining",
+    "price": 78000,
+    "material": "Solid Burma-Grade Teak with Matte Osmo Oil Finish",
+    "dimensions": {
+      "widthCm": 195,
+      "depthCm": 95,
+      "heightCm": 76,
+      "label": "195 × 95 × 76 cm"
+    },
+    "colors": [
+      { "name": "Natural Honey Teak", "hex": "#9B6B43" },
+      { "name": "Smoked Walnut Stain", "hex": "#523A28" }
+    ],
+    "image": "/src/assets/images/product_dining_set_1792829928262.jpg",
+    "cropStyle": "default",
+    "featured": true,
+    "inStock": true,
+    "leadTime": "Ships in 12–14 days",
+    "description": "A generous six-seater solid timber dining table paired with sculpted ergonomic chairs. Hand-rubbed with plant-based hardwax oil that resists hot Chai cups, turmeric spills, and monsoon humidity."
+  },
+  {
+    "id": "prod-chair-01",
+    "sku": "VH-CH-401",
+    "name": "Chettinad Vienna Cane Lounge Chair",
+    "category": "Chairs",
+    "price": 22500,
+    "material": "Seasoned Teak Frame, Natural Rattan Cane & Cotton Twill",
+    "dimensions": {
+      "widthCm": 68,
+      "depthCm": 76,
+      "heightCm": 81,
+      "label": "68 × 76 × 81 cm"
+    },
+    "colors": [
+      { "name": "Sage Meadow", "hex": "#8A9A86" },
+      { "name": "Ivory Bouclé", "hex": "#EAE5DC" },
+      { "name": "Espresso Linen", "hex": "#4A3C31" }
+    ],
+    "image": "/src/assets/images/product_lounge_chair_1792829930046.jpg",
+    "cropStyle": "default",
+    "featured": true,
+    "inStock": true,
+    "leadTime": "Ships in 5–7 days",
+    "description": "Inspired by heritage South Indian verandah seating and refined for modern apartments. Hand-woven octagonal rattan backrest promotes airflow while sculpted armrests cradle the forearms naturally."
+  },
+  {
+    "id": "prod-wardrobe-01",
+    "sku": "VH-WD-501",
+    "name": "Travancore Fluted 3-Door Wardrobe",
+    "category": "Wardrobes",
+    "price": 84000,
+    "material": "Solid Fluted Teak Facade, Marine Ply Core & Brushed Brass",
+    "dimensions": {
+      "widthCm": 165,
+      "depthCm": 60,
+      "heightCm": 210,
+      "label": "165 × 60 × 210 cm"
+    },
+    "colors": [
+      { "name": "Warm Fluted Teak", "hex": "#9C6F44" },
+      { "name": "Deep Espresso Ash", "hex": "#3D2E24" }
+    ],
+    "image": "/src/assets/images/product_wardrobe_fluted_1792829930516.jpg",
+    "cropStyle": "default",
+    "featured": true,
+    "inStock": true,
+    "leadTime": "Ships in 14–18 days",
+    "description": "Full-height architectural storage featuring CNC-milled vertical teak fluting, soft-close Hettich hinges, dedicated saree & blazer hanging bays, and a velvet-lined internal locker drawer."
+  },
+  {
+    "id": "prod-office-01",
+    "sku": "VH-OF-601",
+    "name": "Kaveri Executive Walnut Writing Desk",
+    "category": "Office",
+    "price": 44500,
+    "material": "Solid American Walnut & Concealed Cable Tray",
+    "dimensions": {
+      "widthCm": 150,
+      "depthCm": 72,
+      "heightCm": 75,
+      "label": "150 × 72 × 75 cm"
+    },
+    "colors": [
+      { "name": "Rich Walnut", "hex": "#5C4033" },
+      { "name": "Natural Teak", "hex": "#9B6B43" }
+    ],
+    "image": "/src/assets/images/product_office_desk_1792829930911.jpg",
+    "cropStyle": "default",
+    "featured": true,
+    "inStock": true,
+    "leadTime": "Ships in 7–10 days",
+    "description": "Built for focused studio and home-office work. Features bevelled tabletop edges, two dovetail utility drawers on silent runners, and a rear flip-top channel that hides power bricks and monitor cables."
+  },
+  {
+    "id": "prod-sofa-02",
+    "sku": "VH-SF-102",
+    "name": "Coorg Bouclé Courtyard Sofa",
+    "category": "Sofas",
+    "price": 54000,
+    "material": "Solid Teak Plinth Base & Heavyweight Ivory Bouclé",
+    "dimensions": {
+      "widthCm": 190,
+      "depthCm": 86,
+      "heightCm": 76,
+      "label": "190 × 86 × 76 cm"
+    },
+    "colors": [
+      { "name": "Ivory Bouclé", "hex": "#EAE5DC" },
+      { "name": "Warm Terracotta", "hex": "#A85D44" }
+    ],
+    "image": "/src/assets/images/hero_living_room_1792829925542.jpg",
+    "cropStyle": "zoom-center",
+    "featured": false,
+    "inStock": true,
+    "leadTime": "Ships in 7–10 days",
+    "description": "Compact architectural three-seater tailored for urban apartments. Plush textured bouclé upholstery rests atop a continuous floating solid teak perimeter frame."
+  },
+  {
+    "id": "prod-bed-02",
+    "sku": "VH-BD-202",
+    "name": "Gokarna Low-Profile Queen Platform Bed",
+    "category": "Beds",
+    "price": 46500,
+    "material": "Solid Seasoned Teak with Floating Recessed Plinth",
+    "dimensions": {
+      "widthCm": 160,
+      "depthCm": 208,
+      "heightCm": 94,
+      "label": "160 × 208 × 94 cm (Queen)"
+    },
+    "colors": [
+      { "name": "Natural Honey Teak", "hex": "#9B6B43" },
+      { "name": "Sandstone Weave", "hex": "#D8CFC0" }
+    ],
+    "image": "/src/assets/images/product_bed_oak_1792829927202.jpg",
+    "cropStyle": "zoom-right",
+    "featured": false,
+    "inStock": true,
+    "leadTime": "Ships in 10–12 days",
+    "description": "Japanese-Scandinavian inspired queen platform frame with recessed legs that protect toes in compact bedrooms while giving the mattress a poised floating silhouette."
+  },
+  {
+    "id": "prod-dining-02",
+    "sku": "VH-DN-302",
+    "name": "Konkan Compact 4-Seater Dining Table",
+    "category": "Dining",
+    "price": 38900,
+    "material": "Solid Nilambur Teak with Chamfered Edge Profile",
+    "dimensions": {
+      "widthCm": 140,
+      "depthCm": 85,
+      "heightCm": 76,
+      "label": "140 × 85 × 76 cm"
+    },
+    "colors": [
+      { "name": "Natural Honey Teak", "hex": "#9B6B43" },
+      { "name": "Smoked Walnut Stain", "hex": "#523A28" }
+    ],
+    "image": "/src/assets/images/product_dining_set_1792829928262.jpg",
+    "cropStyle": "zoom-left",
+    "featured": false,
+    "inStock": true,
+    "leadTime": "Ships in 7–10 days",
+    "description": "Proportioned specifically for sunlit breakfast nooks and 2BHK dining zones. Comfortably seats four with generous leg clearance and splayed cylindrical legs."
+  },
+  {
+    "id": "prod-chair-02",
+    "sku": "VH-CH-402",
+    "name": "Mysuru Sculpted Dining Armchair (Pair)",
+    "category": "Chairs",
+    "price": 18500,
+    "material": "Steam-Bent Solid Teak & Cushioned Linen Seat Pad",
+    "dimensions": {
+      "widthCm": 54,
+      "depthCm": 56,
+      "heightCm": 78,
+      "label": "54 × 56 × 78 cm (Set of 2)"
+    },
+    "colors": [
+      { "name": "Oatmeal Linen", "hex": "#DDD6C7" },
+      { "name": "Natural Honey Teak", "hex": "#9B6B43" }
+    ],
+    "image": "/src/assets/images/product_dining_set_1792829928262.jpg",
+    "cropStyle": "zoom-right",
+    "featured": false,
+    "inStock": true,
+    "leadTime": "Ships in 5–7 days",
+    "description": "Sold as a matched pair, featuring a continuous curved backrest carved from thick teak stock that tucks neatly beneath standard 76 cm dining and study tables."
+  },
+  {
+    "id": "prod-wardrobe-02",
+    "sku": "VH-WD-502",
+    "name": "Wayanad 2-Door Compact Linen Armoire",
+    "category": "Wardrobes",
+    "price": 56500,
+    "material": "Fluted Solid Teak Doors & Cedar-Lined Shelving",
+    "dimensions": {
+      "widthCm": 110,
+      "depthCm": 58,
+      "heightCm": 200,
+      "label": "110 × 58 × 200 cm"
+    },
+    "colors": [
+      { "name": "Warm Fluted Teak", "hex": "#9C6F44" },
+      { "name": "Deep Espresso Ash", "hex": "#3D2E24" }
+    ],
+    "image": "/src/assets/images/product_wardrobe_fluted_1792829930516.jpg",
+    "cropStyle": "zoom-center",
+    "featured": false,
+    "inStock": true,
+    "leadTime": "Ships in 12–15 days",
+    "description": "Space-conscious two-door armoire with aromatic cedar interior shelves that naturally deter silverfish and moisture, paired with solid machined brass pulls."
+  },
+  {
+    "id": "prod-office-02",
+    "sku": "VH-OF-602",
+    "name": "Deccan Tan Leather Studio Task Chair",
+    "category": "Office",
+    "price": 24900,
+    "material": "Top-Grain Saddle Tan Vegan Leather & Brushed Aluminum",
+    "dimensions": {
+      "widthCm": 62,
+      "depthCm": 64,
+      "heightCm": 96,
+      "label": "62 × 64 × 88–96 cm"
+    },
+    "colors": [
+      { "name": "Saddle Tan", "hex": "#B57C50" },
+      { "name": "Charcoal Slate", "hex": "#4A4B4D" }
+    ],
+    "image": "/src/assets/images/product_office_desk_1792829930911.jpg",
+    "cropStyle": "zoom-left",
+    "featured": false,
+    "inStock": true,
+    "leadTime": "Ships in 4–6 days",
+    "description": "Architectural ribbed task chair with synchronized tilt tension, pneumatic height adjustment, and smooth floor-safe casters—bringing boardroom poise to residential studies."
+  }
+]
